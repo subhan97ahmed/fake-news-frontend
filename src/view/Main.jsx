@@ -2,7 +2,9 @@ import { useState } from "react";
 import { Layout, Row, Col, Typography, message } from "antd";
 import { HXImage, HXButton, HXTextArea } from "components/index";
 import { fetchNewsResult } from "utils";
+import { Footer } from "antd/lib/layout/layout";
 import Logo from "assets/images/logo.png";
+import Cmplogo from "assets/images/Product by.png";
 import FakeNews from "assets/images/fake-news.jpg";
 
 import "view/main.css";
@@ -36,7 +38,6 @@ const MainView = (props) => {
       try {
         const response = await fetchNewsResult(filteredNewsText);
         console.log("response: ", response);
-        // const randomPredict = Math.random() > 0.5 ? "real" : "fake";
         setResult(response.prediction.toLowerCase());
         message.success("Woohoo your news is now calculated!");
       } catch (e) {
@@ -51,9 +52,12 @@ const MainView = (props) => {
   return (
     <Layout className="main-view">
       <Header>
-        <Row justify="center" align="middle" className="hx-header-row">
-          <Col>
-            <HXImage src={Logo} alt="The Hoax" width={280} />
+        <Row justify="left" align="middle" className="hx-header-row">
+          <Col xs={12} lg={5}>
+            <Title style={{ color: "white" }}>Reality Check</Title>
+          </Col>
+          <Col xs={12} lg={5}>
+            <HXImage src={Logo} alt="The Reality Check" width={80} />
           </Col>
         </Row>
       </Header>
@@ -118,6 +122,18 @@ const MainView = (props) => {
           </Col>
         </Row>
       </Content>
+      <Footer>
+        <Row
+          justify="center"
+          align="middle"
+          className="hx-footer-row"
+          gutter={[0, 5]}
+        >
+          <Col xs={24} lg={24}>
+            <HXImage src={Cmplogo} alt="The Reality Check" width={240} />
+          </Col>
+        </Row>
+      </Footer>
     </Layout>
   );
 };

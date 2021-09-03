@@ -21,7 +21,7 @@ export const HXSplash = ({ children }) => {
         children
       ) : (
         <div className="hx-splash-wrapper">
-          <HXImage src={SplashImg} alt={"Hoax Splash"} />
+          <HXImage src={SplashImg} alt={"Reality Splash"} />
         </div>
       )}
     </>

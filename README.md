@@ -1,11 +1,11 @@
-<h1 align="center">The Hoax :newspaper_roll: - Web App</h1>
-<h3 align="center">A fake news App</h3>
+<h1 align="center">Reality Check :newspaper_roll: - Web App</h1>
+<h3 align="center">A fake news detection App</h3>
 
 Ever thought how we can find the **fake articles/news** that do get spread in the world of internet very easily?
 
 Now thanks to the AI we can easily find the fake news and tell you which one is the correct article.
 
-We are using Tensorflow model through which we will be finding out the [**fake news**](https://github.com/subhan97ahmed/fake-news-detector-backend).
+We are using Tensorflow model through which we will be finding out the [**fake news**](https://github.com/subhan97ahmed/reality-check-backend).
 
 ## Front-end
 Before start using web app. Please make sure to have these applications installed.
@@ -33,6 +33,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Back-end
 
-Head over to the back-end to [learn more :arrow_forward:](https://github.com/subhan97ahmed/fake-news-detector-backend)
+Head over to the back-end to [learn more :arrow_forward:](https://github.com/subhan97ahmed/reality-check-backend)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
