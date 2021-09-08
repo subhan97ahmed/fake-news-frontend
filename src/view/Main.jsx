@@ -57,7 +57,7 @@ const MainView = (props) => {
             <Title style={{ color: "white" }}>Reality Check</Title>
           </Col>
           <Col xs={12} lg={5}>
-            <HXImage src={Logo} alt="The Reality Check" width={80} />
+            <HXImage src={Logo} alt="The Reality Check" width={120} />
           </Col>
         </Row>
       </Header>
