@@ -8,6 +8,7 @@ import Cmplogo from "assets/images/Product by.png";
 import FakeNews from "assets/images/fake-news.jpg";
 
 import "view/main.css";
+import Ad from "components/ad/Ad";
 
 const { Header, Content } = Layout;
 const { Title, Text } = Typography;
@@ -114,8 +115,8 @@ const MainView = (props) => {
                 </Row>
                 <Row justify="center">
                   <Col>
-                    <HXImage src={FakeNews} alt="Fake News" />
-                  </Col>
+                    <Ad/>
+                    </Col>
                 </Row>
               </Col>
             </Row>
