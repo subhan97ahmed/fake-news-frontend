@@ -3,7 +3,8 @@
 
 Ever thought how we can find the **fake articles/news** that do get spread in the world of internet very easily?
 
-Now thanks to the AI we can easily find the fake news and tell you which one is the correct article.
+Now thanks to the AI we can easily find the fake news and tell you which one is the true article.
+here is the link [**reality check**](https://realitychecker.netlify.app/)
 
 We are using Tensorflow model through which we will be finding out the [**fake news**](https://github.com/subhan97ahmed/reality-check-backend).
 
